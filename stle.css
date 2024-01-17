@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    height: 600px;
+    width: 600px;
+    border: 2px solid green;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://picsum.photos/id/5/200'),url('https://picsum.photos/id/23/200'),url('https://picsum.photos/id/45/200'),url('https://picsum.photos/id/12/200'),url('https://picsum.photos/id/48/200'),url('https://picsum.photos/id/31/200'),url('https://picsum.photos/id/366/200'),url('https://picsum.photos/id/32/200'),url('https://picsum.photos/id/56/200');
+    background-repeat: no-repeat;
+    background-position: right, top right, left, top left,top,center,bottom,bottom left,bottom right ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+    color: #fff;
+}
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+body , html {
+    height: 100%;
+}

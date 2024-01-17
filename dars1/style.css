@@ -1,0 +1,64 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.city {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.city h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.city a {
+    color: inherit;
+}
+
+.menu ul {display: flex;
+    gap: 10px;
+    font-size: 20px;
+    flex-direction: column;
+}
+.menu {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/travel.jpg);
+    
+}
+.bg-rome {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/rome.jpg);
+}
+.bg-mexico {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/mexico.jpg);
+}
+.bg-berlin {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/berlin.jpg);
+}
+.bg-paris {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/paris.jpg);
+}
+.bg-moskva {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/moskva.jpg);
+}
